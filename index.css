@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 130px;
+  background-color: #40744e;
+}
+.header_container {
+  padding: 17px;
+}
+.header_logo {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+}
+.main {
+  width: 100%;
+}
+.main_title {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 590px;
+  background-image: url(./img/image\ 1.png);
+}

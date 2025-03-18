@@ -2,22 +2,124 @@
   width: 100%;
   height: 130px;
   background-color: #40744e;
+  display: flex;
+  align-items: center;
 }
 .header_container {
   padding: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .header_logo {
   color: #ffffff;
   font-size: 24px;
   margin: 0;
 }
+.header_label {
+  background-color: inherit;
+  border: none;
+  font-size: 30px;
+  transition: all 0.5s linear;
+  display: inline-block;
+}
+.header_menu {
+  position: relative;
+}
+#menu {
+  display: none;
+}
+#menu:checked + .header_menu_button + .header_menu_list {
+  display: block;
+}
+.header_menu_list {
+  list-style-type: none;
+  min-width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header_menu_item {
+  padding: 8px 12px;
+}
+.header_menu_item:hover {
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+}
+.header_menu_button {
+  font-size: 24px;
+  color: #ffffff;
+}
+.header_menu_button:hover {
+  cursor: pointer;
+}
+.header_praviteli_item {
+  padding: 8px 12px;
+}
+.header_praviteli_list {
+  list-style-type: none;
+  min-width: 100px;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  top: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header_praviteli {
+  position: relative;
+}
+.header_praviteli_button {
+  font-size: 24px;
+  color: #ffffff;
+}
+#praviteli {
+  display: none;
+}
+#praviteli:checked + .header_praviteli_button + .header_praviteli_list {
+  display: block;
+}
+.header_praviteli_item:hover {
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+}
+.header_praviteli_button:hover {
+  cursor: pointer;
+}
 .main {
   width: 100%;
 }
 .main_title {
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 590px;
   background-image: url(./img/image\ 1.png);
+  display: flex;
+  justify-content: center;
+}
+.main_title_container {
+  width: 902px;
+  height: 156px;
+  background-color: #866527a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_title_text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+  color: #472507;
+  text-align: center;
 }

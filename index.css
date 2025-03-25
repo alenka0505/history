@@ -98,6 +98,8 @@
 }
 .main {
   width: 100%;
+  background-color: #A4B0A3;
+  min-height: 7000px;
 }
 .main_title {
   background-position: center;
@@ -122,4 +124,23 @@
   font-weight: 800;
   color: #472507;
   text-align: center;
+}
+.main_info{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main_info_container{
+  width: 1250px;
+}
+.main_text{
+  font-size: 30px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.main_img{
+  width: 100%;
+}
+.main_praviteli{
+  width: 100%;
 }

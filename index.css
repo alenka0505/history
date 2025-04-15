@@ -145,7 +145,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
 }
 .main_praviteli_img {
   width: 288px;
@@ -156,7 +155,6 @@
   width: 1250px;
   padding: 0 133px 0;
   box-sizing: border-box;
-  background-color: aqua;
 }
 .main_praviteli_general {
   display: flex;
@@ -164,7 +162,10 @@
   background-color: beige;
 }
 .main_praviteli_text {
-  margin-left: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .main_praviteli_name {
   font-size: 48px;
@@ -174,4 +175,18 @@
 .main_praviteli_info {
   font-size: 24px;
   font-weight: 600;
+}
+.main_praviteli_biography {
+  font-size: 24px;
+  font-weight: 500;
+}
+.main_praviteli_header {
+  font-weight: 600;
+  font-size: 24px;
+}
+.main_praviteli_divider{
+  width: 100%;
+  height: 32px;
+  background-color: #7A7A7A;
+  margin-top: 62px;
 }

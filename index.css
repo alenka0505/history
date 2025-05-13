@@ -166,6 +166,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  text-align: center;
 }
 .main_praviteli_name {
   font-size: 48px;

@@ -149,6 +149,7 @@
 .main_praviteli_img {
   width: 288px;
   height: 288px;
+  object-fit: ;
 }
 .main_praviteli_container {
   margin: 78px auto 0;

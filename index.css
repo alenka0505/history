@@ -149,7 +149,7 @@
 .main_praviteli_img {
   width: 288px;
   height: 288px;
-  object-fit: ;
+  object-fit: cover;
 }
 .main_praviteli_container {
   margin: 78px auto 0;
@@ -209,6 +209,7 @@
 .monument_img {
   max-width: 450px;
   height: 350px;
+  object-fit: contain;
 }
 .monument_text {
   font-size: 18px;

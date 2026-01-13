@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="normalize.css" />
   </head>
   <body>
+    <a name="emblem"></a>
     <header class="header">
       <div class="header_container">
-        <p class="header_logo">7 веков династии <br />Рюриковичей</p>
+        <a href="#emblem" class="header_praviteli_anchor"
+          ><img class="header_logo" src="img/emblem.png" alt="герб"
+        /></a>
         <div class="header_praviteli">
           <input type="checkbox" id="praviteli" />
           <label for="praviteli" class="header_praviteli_button"
@@ -22,14 +25,41 @@
             />
           </label>
           <ul class="header_praviteli_list">
-            <li class="header_praviteli_item">Рюрик</li>
-            <li class="header_praviteli_item">Олег</li>
-            <li class="header_praviteli_item">Игорь</li>
-            <li class="header_praviteli_item">Ольга</li>
-            <li class="header_praviteli_item">Святослав</li>
-            <li class="header_praviteli_item">Ярополк</li>
-            <li class="header_praviteli_item">Владимир</li>
-            <li class="header_praviteli_item">Святополк</li>
+            <a href="#rurik" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Рюрик</li></a
+            >
+            <a href="#oleg" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Олег Вещий</li></a
+            >
+            <a href="#igor" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Игорь Рюрикович</li></a
+            >
+            <a href="#olga" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Ольга</li></a
+            >
+            <a href="#svyatoslav" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Святослав Игоревич</li></a
+            >
+            <a href="#yaropolk" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Ярополк Святославович</li></a
+            >
+            <a href="#vladimir" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">
+                Владимир Святославович (Святой)
+              </li></a
+            >
+            <a href="#svyatopolk" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Святополк Владимирович</li></a
+            >
+            <a href="#yaroslav" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Ярослав Мудрый</li></a
+            >
+            <a href="#izyaslav" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Изяслав Ярославич</li></a
+            >
+            <a href="#svyatoslav_yaroslavovich" class="header_praviteli_anchor"
+              ><li class="header_praviteli_item">Святослав Ярославич</li></a
+            >
           </ul>
         </div>
         <div class="header_menu">
@@ -70,6 +100,7 @@
         <div class="main_praviteli_container">
           <div>
             <div class="main_praviteli_general">
+              <a name="rurik"></a>
               <img class="main_praviteli_img" src="img/rurik.png" alt="rurik" />
               <div class="main_praviteli_text">
                 <p class="main_praviteli_name">
@@ -165,6 +196,7 @@
           <div class="main_praviteli_divider"></div>
           <div>
             <div class="main_praviteli_general">
+              <a name="oleg"></a>
               <img class="main_praviteli_img" src="img/oleg.jpg" alt="oleg" />
               <div class="main_praviteli_text">
                 <p class="main_praviteli_name">
@@ -291,9 +323,12 @@
           <div class="main_praviteli_divider"></div>
           <div>
             <div class="main_praviteli_general">
+              <a name="igor"></a>
               <img class="main_praviteli_img" src="img/igor.jpg" alt="igor" />
               <div class="main_praviteli_text">
-                <p class="main_praviteli_name">Игорь. <br />Князь Киевский.</p>
+                <p class="main_praviteli_name">
+                  Игорь Рюрикович. <br />Князь Киевский.
+                </p>
                 <p class="main_praviteli_info">
                   Годы правления: 912-945<br />
                   Преемница: Княгиня Ольга <br />
@@ -377,6 +412,7 @@
             <div class="main_praviteli_divider"></div>
             <div>
               <div class="main_praviteli_general">
+                <a name="olga"></a>
                 <img class="main_praviteli_img" src="img/olga.jpg" alt="olga" />
                 <div class="main_praviteli_text">
                   <p class="main_praviteli_name">
@@ -445,6 +481,7 @@
             <div class="main_praviteli_divider"></div>
             <div>
               <div class="main_praviteli_general">
+                <a name="svyatoslav"></a>
                 <img
                   class="main_praviteli_img"
                   src="img/Svyatoslav.jpg"
@@ -452,7 +489,7 @@
                 />
                 <div class="main_praviteli_text">
                   <p class="main_praviteli_name">
-                    Святослав. <br />
+                    Святослав Игоревич. <br />
                     Князь Кивский.
                   </p>
                   <p class="main_praviteli_info">
@@ -520,6 +557,7 @@
             <div class="main_praviteli_divider"></div>
             <div>
               <div class="main_praviteli_general">
+                <a name="yaropolk"></a>
                 <img
                   class="main_praviteli_img"
                   src="img/yaropolk.jpg"
@@ -527,7 +565,7 @@
                 />
                 <div class="main_praviteli_text">
                   <p class="main_praviteli_name">
-                    Ярополк. <br />
+                    Ярополк Святославович. <br />
                     Князь Киевский.
                   </p>
                   <p class="main_praviteli_info">
@@ -602,6 +640,7 @@
             <div class="main_praviteli_divider"></div>
             <div>
               <div class="main_praviteli_general">
+                <a name="vladimir"></a>
                 <img
                   class="main_praviteli_img"
                   src="img/vladimir.png"
@@ -690,6 +729,7 @@
           <div class="main_praviteli_divider"></div>
           <div>
             <div class="main_praviteli_general">
+              <a name="svyatopolk"></a>
               <img
                 class="main_praviteli_img"
                 src="img/svatopolk.png"
@@ -763,6 +803,7 @@
           <div class="main_praviteli_divider"></div>
           <div>
             <div class="main_praviteli_general">
+              <a name="yaroslav"></a>
               <img
                 class="main_praviteli_img"
                 src="img/Yaroslav.jpg"
@@ -870,6 +911,7 @@
           <div class="main_praviteli_divider"></div>
           <div>
             <div class="main_praviteli_general">
+              <a name="izyaslav"></a>
               <img
                 class="main_praviteli_img"
                 src="img/izyaslav.jpeg"
@@ -933,14 +975,47 @@
                   <p class="monument_text">
                     Бюст великого князя Изяслава Ярославовича установлен в 2017
                     году в Нижнем Новгороде, на аллее Рюриковичей. Автор —
-                    скульптор Александр Горшков. Бюст изображает князя Изяслава I
-                    с длинными усами и бородой. Лицо скрыто шлемом. Верхняя одежда
-                    украшена отделкой из горностая по плечам и по вороту. Под
-                    отделкой располагается кольчуга. Бюст установлен на круглой
-                    подставке, что обеспечивает его устойчивость.
+                    скульптор Александр Горшков. Бюст изображает князя Изяслава
+                    I с длинными усами и бородой. Лицо скрыто шлемом. Верхняя
+                    одежда украшена отделкой из горностая по плечам и по вороту.
+                    Под отделкой располагается кольчуга. Бюст установлен на
+                    круглой подставке, что обеспечивает его устойчивость.
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="main_praviteli_divider"></div>
+          <div>
+            <div class="main_praviteli_general">
+              <a name="svyatoslav_yaroslavovich"></a>
+              <img
+                class="main_praviteli_img"
+                src="img/svyatoslav.jpeg"
+                alt="svyatoslav"
+              />
+              <div class="main_praviteli_text">
+                <p class="main_praviteli_name">Святослав Ярославич</p>
+                <p class="main_praviteli_info">
+                  Годы правления: 1073-1076<br />
+                  Преемник: Всеволод Ярославич <br />
+                </p>
+              </div>
+            </div>
+            <div class="main_praviteli_info">
+              <p class="main_praviteli_header">
+                Святослав II Ярославич – Годы правления Святослава Ярославича
+                как великого князя Киевского — 1073–1076. сын Ярослава Мудрого.
+                Он родился в 1027 году. Среди братьев он выделялся способностями
+                и энергией.
+              </p>
+              <h2 class="main_praviteli_section_header">Основные события:</h2>
+              <ul class="main_praviteli_biography">
+                <li class="main_praviteli_year">
+                  1054 год - По завещанию Ярослава получил в княжение Чернигов и
+                  земли на Левобережье Днепра
+                </li>
+              </ul>
             </div>
           </div>
         </div>

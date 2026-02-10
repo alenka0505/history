@@ -238,9 +238,13 @@
   background-color: rgb(228, 235, 193);
   width: 100%;
   min-height: 150px;
+  padding: 15px;
 }
 .link_list {
   list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .link_item {
   font-size: 20px;
